@@ -3,7 +3,6 @@ import React from "react";
 import "./Product.css";
 import { useDispatch } from "react-redux";
 import { cartActions } from "../store/cart-clice";
-import { useSelector } from "react-redux";
 const Product = ({ name, id, imgURL, price }) => {
   const dispatch = useDispatch();
   const addToCart = () => {
