@@ -22,7 +22,7 @@ const CartItem = ({ name, quantity, total, price, id }) => {
       <p>${price} /-</p>
       <p>x{quantity}</p>
       <article>Total ${total}</article>
-      <button onClick={decrementCartItems} className="cart-actions">
+      <button onClick={incrementCartItem} className="cart-actions">
         -
       </button>
       <button onClick={incrementCartItem} className="cart-actions">
